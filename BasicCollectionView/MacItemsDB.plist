@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Array1</key>
+	<array>
+		<string>safari.png</string>
+		<string>safari</string>
+	</array>
+	<key>Array2</key>
+	<array>
+		<string>calender.png</string>
+		<string>calender</string>
+	</array>
+	<key>Array3</key>
+	<array>
+		<string>ibooks.png</string>
+		<string>ibooks</string>
+	</array>
+	<key>Array4</key>
+	<array>
+		<string>games.png</string>
+		<string>games</string>
+	</array>
+	<key>Array5</key>
+	<array>
+		<string>photos.png</string>
+		<string>photos</string>
+	</array>
+	<key>Array6</key>
+	<array>
+		<string>iTunes.png</string>
+		<string>iTunes</string>
+	</array>
+</dict>
+</plist>
