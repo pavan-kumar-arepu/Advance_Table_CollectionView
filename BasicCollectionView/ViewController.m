@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CustomCollectionViewCell.h"
 #import "TableViewCell.h"
+#import "DetailedViewController.h"
 
 
 @interface ViewController ()
@@ -70,7 +71,49 @@
     _itemImageView.image = [UIImage imageNamed:[macItemArray objectAtIndex:indexPath.row]];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+  /*
+    DetailedViewController *dVC=[self.storyboard instantiateViewControllerWithIdentifier:@"Detail"];
+    dVC.imageViewName = [macItemArray objectAtIndex:indexPath.row];
+    dVC.itemName = [macItemLableArray objectAtIndex:indexPath.row];
+    [self presentViewController:dVC animated:YES completion:nil];
+    */
+    
+//    
+//    DetailViewController *det=[self.storyboard instantiateViewControllerWithIdentifier:@"Detail"];
+//    det.STR=[macItemLableArray objectAtIndex:indexPath.row];
+//  
+//    det.photo=[macItemArray objectAtIndex:indexPath.row];
+//    //[self.navigationController pushViewController:det animated:YES];
+//    [self presentViewController:det animated:YES completion:nil];
 
+}
+
+
+#pragma mark - PrepareForSegue
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    DetailedViewController *destViewController = segue.destinationViewController;
+    
+    if ([segue.identifier isEqualToString:@"detailTVC"])
+    {
+        NSIndexPath *indexPath = [self.myTableVC indexPathForSelectedRow];
+        destViewController.containerName = @"TableView";
+        destViewController.itemName = [macItemLableArray objectAtIndex:indexPath.row];
+        destViewController.imageViewName = [macItemArray objectAtIndex:indexPath.row];
+        
+    }else if ([segue.identifier isEqualToString:@"detailCVC"])
+    {
+        NSArray *arrayOfIndexPaths = [self.myCollectionVC indexPathsForSelectedItems];
+        NSIndexPath *indexPath = [arrayOfIndexPaths firstObject];
+        destViewController.containerName = @"CollectionView";
+        destViewController.itemName = [macItemLableArray objectAtIndex:indexPath.row];
+        destViewController.imageViewName = [macItemArray objectAtIndex:indexPath.row];
+
+    }
 }
 
 

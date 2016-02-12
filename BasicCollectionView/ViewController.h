@@ -11,7 +11,12 @@
 @interface ViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate, UITableViewDataSource,UITableViewDelegate>
 
 @property(nonatomic,strong) IBOutlet UICollectionView *myCollectionVC;
+@property(nonatomic,strong) IBOutlet UITableView *myTableVC;
+
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;
+
+
+
 
 @end
 

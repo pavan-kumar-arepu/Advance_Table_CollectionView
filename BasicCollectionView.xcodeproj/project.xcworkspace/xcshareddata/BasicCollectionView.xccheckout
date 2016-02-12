@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2C6B093-833B-4D26-8365-1ABE05ACD7FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BasicCollectionView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>855FC3220D5F04BEE6B9485D9A890522C4279EC8</key>
+		<string>https://github.com/ppam1524/Advance_Table_CollectionView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BasicCollectionView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>855FC3220D5F04BEE6B9485D9A890522C4279EC8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ppam1524/Advance_Table_CollectionView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>855FC3220D5F04BEE6B9485D9A890522C4279EC8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>855FC3220D5F04BEE6B9485D9A890522C4279EC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Advance_Table_CollectionView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
